@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE prediccion [
+        <!ELEMENT prediccion (municipio,dia+)>
+        <!ATTLIST prediccion
+            xmlns:xsi CDATA #IMPLIED
+            xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+        <!ELEMENT municipio (nombre,provincia)>
+        <!ATTLIST municipio id ID #REQUIRED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT provincia (#PCDATA)>
+        <!ELEMENT dia (prob_precipitacion,estado_cielo,viento,temperatura)>
+        <!ATTLIST dia fecha CDATA #REQUIRED>
+        <!ELEMENT prob_precipitacion (#PCDATA)>
+        <!ELEMENT estado_cielo (#PCDATA)>
+        <!ATTLIST estado_cielo descripcion CDATA #REQUIRED>
+        <!ELEMENT viento (direccion,velocidad)>
+        <!ELEMENT direccion (#PCDATA)>
+        <!ELEMENT velocidad (#PCDATA)>
+        <!ELEMENT temperatura (minima,maxima)>
+        <!ELEMENT minima (#PCDATA)>
+        <!ELEMENT maxima (#PCDATA)>
+]>
+<prediccion xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='10.xsd'>
+    <municipio id="Benavente">
+        <nombre>Benavente</nombre>
+        <provincia>Zamora</provincia>
+    </municipio>
+    <dia fecha="2022-01-02">
+        <prob_precipitacion>1</prob_precipitacion>
+        <estado_cielo descripcion="Despejado">1</estado_cielo>
+        <viento>
+            <direccion>Norte</direccion>
+            <velocidad>75</velocidad>
+        </viento>
+        <temperatura>
+            <minima>-3</minima>
+            <maxima>15</maxima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-01-03">
+        <prob_precipitacion>1</prob_precipitacion>
+        <estado_cielo descripcion="Nuboso">1</estado_cielo>
+        <viento>
+            <direccion>Sur</direccion>
+            <velocidad>15</velocidad>
+        </viento>
+        <temperatura>
+            <minima>-1</minima>
+            <maxima>15</maxima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-01-04">
+        <prob_precipitacion>1</prob_precipitacion>
+        <estado_cielo descripcion="Despejado">1</estado_cielo>
+        <viento>
+            <direccion>Noreste</direccion>
+            <velocidad>5</velocidad>
+        </viento>
+        <temperatura>
+            <minima>-5</minima>
+            <maxima>12</maxima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-01-05">
+        <prob_precipitacion>100</prob_precipitacion>
+        <estado_cielo descripcion="Lluvioso">1</estado_cielo>
+        <viento>
+            <direccion>Norte</direccion>
+            <velocidad>45</velocidad>
+        </viento>
+        <temperatura>
+            <minima>5</minima>
+            <maxima>12</maxima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-01-06">
+        <prob_precipitacion>1</prob_precipitacion>
+        <estado_cielo descripcion="Nuboso">1</estado_cielo>
+        <viento>
+            <direccion>Norte</direccion>
+            <velocidad>1</velocidad>
+        </viento>
+        <temperatura>
+            <minima>-2</minima>
+            <maxima>6</maxima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-01-07">
+        <prob_precipitacion>1</prob_precipitacion>
+        <estado_cielo descripcion="Despejado">1</estado_cielo>
+        <viento>
+            <direccion>Sureste</direccion>
+            <velocidad>5</velocidad>
+        </viento>
+        <temperatura>
+            <minima>-1</minima>
+            <maxima>14</maxima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-01-08">
+        <prob_precipitacion>1</prob_precipitacion>
+        <estado_cielo descripcion="Nuboso">1</estado_cielo>
+        <viento>
+            <direccion>Norte</direccion>
+            <velocidad>5</velocidad>
+        </viento>
+        <temperatura>
+            <minima>4</minima>
+            <maxima>11</maxima>
+        </temperatura>
+    </dia>
+</prediccion>

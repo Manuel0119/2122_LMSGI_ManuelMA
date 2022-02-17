@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias 2ºTrimestre</title>
+        <link></link>
+        <description>Actualizaciones de la página</description>
+        <language>es-es</language>
+        <copyright>Derechos reservados por Manuel Martín Alonso 2021-2022</copyright>
+        <pubDate>Sat, 12 Feb 2022 10:00:00 GMT</pubDate>
+        <item>
+            <title>Noticias de las actualizaciones de la página</title>
+            <link></link>
+            <description></description>
+            <guid isPermaLink="true"></guid>
+            <category></category>
+            <pubDate>Mon, 14 Feb 2022 08:30:00 GMT</pubDate>
+        </item>
+    </channel>
+    <channel>
+        <title>Noticias 3ºTrimestre</title>
+        <link></link>
+        <description>Actualizaciones de la página</description>
+        <language>es-es</language>
+        <copyright>Derechos reservados por Manuel Martín Alonso 2021-2022</copyright>
+        <pubDate></pubDate>
+        <item>
+            <title>Noticias de las actualizaciones de la página</title>
+            <link></link>
+            <description></description>
+            <guid isPermaLink="true"></guid>
+            <category></category>
+            <pubDate>Mon, 14 Feb 2022 08:30:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

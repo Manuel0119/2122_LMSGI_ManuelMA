@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="ES">
+    <head>
+        <title>HTML 12 Manuel Martín Alonso</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Manuel Martín Alonso">
+        <meta name="application-name" content="Examen 01">
+        <meta name="description" content="Index Examen 01">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="robots" content="index, follow">    
+        <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>   
+            <h1><a href="index.html">NEFLIX</a></h1>
+            <button class="inicio" role="link" onclick="window.location='form-inicio.html'">Inicio</button>
+        </header>
+        <main>
+            <div>
+                <p id="p1">Todas las peliculas y series que desees, y mucho más.</p>
+                <p id="p2">Disfruta donde quieras. Cancela cuando quieras.</p>
+                <form action="../altaNeflix.php" method="get" id="formulario1">
+                    <input type="email" id="email" placeholder="Correo electrónico" size="32">
+                    <input type="submit" id="empezar" value="Empezar">
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

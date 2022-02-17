@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE curriculum [
+    <!ELEMENT curriculum (nombre,apellido,anyo,residencia,datos)>
+    <!ATTLIST curriculum
+              xmlns:xsi CDATA #IMPLIED
+              xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT anyo (#PCDATA)>
+    <!ELEMENT residencia (ciudad,pais)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT datos (tel,email,perfil+,descripcion,competencias+,formaciones,experiencias+)>
+    <!ELEMENT tel (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT perfil (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT competencias (competencia+)>
+    <!ELEMENT competencia EMPTY>
+    <!ATTLIST competencia nombre CDATA #REQUIRED
+                           nivel (alto|medio|bajo) "medio">
+    <!ELEMENT formaciones (formacion+)>
+    <!ELEMENT formacion EMPTY>
+    <!ATTLIST formacion titulo CDATA #REQUIRED
+                        centro CDATA #REQUIRED
+                        anyo CDATA #IMPLIED>
+    <!ELEMENT experiencias (experiencia+)>
+    <!ELEMENT experiencia (puesto,empresa,anyoini,anyofin?)>
+    <!ELEMENT puesto (#PCDATA)>
+    <!ELEMENT empresa (#PCDATA)>
+    <!ELEMENT anyoini (#PCDATA)>
+    <!ELEMENT anyofin (#PCDATA)>
+    <!ATTLIST puesto especificar CDATA #IMPLIED>
+]>  
+<curriculum xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='04.xsd'>
+    <nombre>Manuel</nombre>
+    <apellido>Martin Alonso</apellido>  
+    <anyo>2002</anyo>  
+    <residencia>
+        <ciudad>Benavente</ciudad>
+        <pais>España</pais>
+    </residencia>
+    <datos>
+        <tel>654213578</tel>
+        <email>manuel.maralo.2@educa.jcyl.es</email>
+        <perfil>https://es.linkedin.com/ManuelMartin</perfil>
+        <descripcion>Buen trabajador</descripcion>
+        <competencias>  
+            <competencia nombre="Ingles" nivel="medio"></competencia>
+        </competencias> 
+        <formaciones>
+            <formacion titulo="DAW1" centro="IES Los Sauces" anyo="2022"></formacion>
+        </formaciones>
+        <experiencias>
+            <experiencia>
+                <puesto>a</puesto>
+                <empresa>a</empresa>
+                <anyoini>2022</anyoini> 
+                <anyofin>2022</anyofin> 
+            </experiencia>      
+        </experiencias>         
+    </datos>
+</curriculum>
+
+

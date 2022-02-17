@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Escribir un documento XML que almacene la siguiente información:
+-->
+<!DOCTYPE world [
+    <!ELEMENT world (fila+)>
+    <!ATTLIST world
+              xmlns:xsi CDATA #IMPLIED
+              xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+    <!ELEMENT fila (continente,pais,capital)>
+    <!ELEMENT continente (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT capital (#PCDATA)>               
+]>
+<world xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='02.xsd'>
+    <fila>
+        <continente>
+            Europa
+        </continente>
+        <pais>
+            Alemania
+        </pais>
+        <capital>
+            Berlin
+        </capital>
+    </fila>
+    <fila>
+        <continente>
+            America
+        </continente>
+        <pais>
+            Argentina
+        </pais>
+        <capital>
+            Buenos Aires
+        </capital>
+    </fila>
+     <fila>
+        <continente>
+            Asia
+        </continente>
+        <pais>
+            Afganistan
+        </pais>
+        <capital>
+            Kabul
+        </capital>
+    </fila>
+     <fila>
+        <continente>
+            Asia
+        </continente>
+        <pais>
+            Arabia Saudita
+        </pais>
+        <capital>
+            Riad
+        </capital>
+    </fila>
+</world>

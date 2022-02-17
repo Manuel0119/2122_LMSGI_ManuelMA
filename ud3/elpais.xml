@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>El País - Ultimas noticias</title>
+        <link>https://elpais.com</link>
+        <description>Es un periodico digital con las novedades nacionales e internacionales</description>
+        <language>es-es</language>
+        <copyright>Derechos reservados por ElPaís 2021-2022</copyright>
+        <pubDate>Thu, 13 Jan 2022 08:00:00 GMT</pubDate>
+        <image>
+            <link>https://elpais.com</link>
+            <title>El País - Ultimas noticias</title>
+            <url>https://imagenes.elpais.com/resizer/zMNyx996tVH3-CqwMBiSdU38Nqw=/1960x1103/cloudfront-eu-central-1.images.arcpublishing.com/prisa/6BWPBWXNTRD7TIWHSCNHN2UTPI.jpg</url>
+        </image>
+        <item>
+            <title>Djokovic, en el cuadro del Abierto de Australia a la espera de la decisión sobre su posible deportación</title>
+            <link>https://elpais.com/deportes/2022-01-13/djokovic-en-el-cuadro-del-open-de-australia-a-la-espera-de-la-decision-sobre-su-posible-deportacion.html</link>
+            <description>El Ministerio de Inmigración, que investiga las irregularidades en la declaración de entrada del tenista serbio, vuelve a posponer la resolución sobre una hipotética expulsión del país</description>
+            <guid isPermaLink="true">https://elpais.com/deportes/2022-01-13/djokovic-en-el-cuadro-del-open-de-australia-a-la-espera-de-la-decision-sobre-su-posible-deportacion.html</guid>
+            <category>Deporte</category>
+            <pubDate>Thu, 13 Jan 2022 08:08:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>La explosión de Badosa resuena en Sídney</title>
+            <link>https://elpais.com/deportes/2022-01-15/paula-badosa-derrota-a-barbora-krejcikova-y-conquista-en-sidney-su-tercer-titulo-wta.html</link>
+            <description>La española se impone a Krejcikova (6-3, 4-6 y 7-6(4) y logra el tercer título de su carrera, que le sitúa sexta en el ‘ranking’ y le subraya de cara al Open de Australia</description>
+            <guid isPermaLink="true">https://elpais.com/deportes/2022-01-15/paula-badosa-derrota-a-barbora-krejcikova-y-conquista-en-sidney-su-tercer-titulo-wta.html</guid>
+            <category>Deporte</category>
+            <pubDate>Sat, 15 Jan 2022 10:11:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

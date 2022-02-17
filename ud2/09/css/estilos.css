@@ -1,0 +1,127 @@
+body{
+    width: 1024px;
+    margin: 0 auto;
+}
+article{
+    padding: 10px;
+    margin-bottom: 1em;
+}
+#enca{
+    color: black;
+}
+section{
+    color: white;
+}
+ul{
+    padding-left: 15px;
+}
+li{
+    display: inline;
+    text-align: center;
+    margin: 5px 10px 0 0; 
+}
+.imagen {
+    float: left;
+}
+#encabezado{
+    background-color: #008000;
+    color: white;
+    font-size: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding-top: 2px;
+}
+#navegacion{
+    background-color: #008000;
+    padding: 5px 0 5px 0;
+}
+#navegacion a{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    color: white;
+    font-size: 25px;
+}
+.titulo{
+    border: 1px white solid;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    font: 20px white;
+}
+#horario{
+    background-color: #6D6D6D;
+}
+.len{background-color: #FFD700;}
+.prog{background-color: #FF8C00;}
+.bas{background-color: #E9967A;}
+.ent{background-color: #ADFF2F;}
+.sis{background-color: #DAA520;}
+#lenguaje{
+    background-color: #FFD700;
+}
+.len2{
+    background-color: #e8c722;
+}
+#bases{
+    background-color: #E9967A;
+}
+.bas2{
+    background-color: #FA8072;
+}
+#programacion{
+    background-color: #FF8C00;
+}
+.prog2{
+    background-color: #e0841a;
+}
+#entorno{
+    background-color: #ADFF2F;
+}
+.ent2{
+    background-color: #9add2e;
+}
+#sistemas{
+    background-color: #DAA520;
+}
+.sis2{
+    background-color: #f2ae10;
+}
+#fol{
+    background-color: #6D6D6D;
+}
+.fol2{
+    background-color: #5b5656;
+}
+#table2{
+    background-color: #87CEFA;
+}
+#table3{
+    background-color: #87CEFA;
+    font-size: 14px;
+}
+table { 
+    text-align: center;
+    width: 70%;
+    margin: 1em auto;
+    color: white;
+    border: 1px dotted;
+    table-layout: fixed;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+} 
+th, td { 
+    border: 1px dotted white;
+}
+address {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #008000;
+    padding: 5px 0 5px 0;
+    color: white;
+    font-size: 20px;
+}
+footer{
+    font-style: italic;
+}

@@ -1,0 +1,101 @@
+.logo-1{
+   font-family: 'Anton', sans-serif;
+   font-size: 40px;
+   color: cornflowerblue;
+   text-decoration:none;
+   margin-right: 20px;
+}
+.logo-1 span{
+   font-family: 'Anton', sans-serif;
+   font-size: 40px;
+   color: yellowgreen;
+   text-decoration:none;
+}
+.logo-2{
+   font-family: 'Bebas Neue', cursive; 
+   font-size: 40px;
+   color: cornflowerblue;
+   text-decoration:none;
+   margin-right: 20px;
+}
+.logo-2 span{
+   font-family: 'Bebas Neue'; 
+   font-size: 40px;
+   color: yellowgreen;
+   text-decoration:none;
+}
+.logo-3{
+   font-family: 'Lobster';
+   font-size: 40px;
+   color: cornflowerblue;
+   text-decoration:none;
+   margin-right: 20px;
+}
+.logo-3 span{
+   font-family: 'Lobster';
+   font-size: 40px;
+   color: yellowgreen;
+   text-decoration:none;
+}
+.logo-4{
+   font-family: 'Pacifico';
+   font-size: 40px;
+   color: cornflowerblue;
+   text-decoration:none;
+   margin-right: 20px;
+}
+.logo-4 span{
+   font-family: 'Pacifico';
+   font-size: 40px;
+   color: yellowgreen;
+   text-decoration:none;
+}
+.content div:nth-child(1){
+   font-family: 'Verdana', sans-serif; 
+}
+.content div:nth-child(2){
+   font-family: 'Didot', serif; 
+}
+.content div:nth-child(3){
+   font-family: 'Freemono', monospace; 
+}
+.content div:nth-child(4){
+   font-family: 'Roboto', sans-serif; 
+}
+.content div:nth-child(5){
+   font-family: 'Akronim', cursive;
+   font-size: 24px;
+}
+.content div:nth-child(6){
+   font-family: 'Montserrat', sans-serif; 
+}
+.content{
+    width: 100%;
+    max-width: 600px;
+    padding: 25px 50px 10px 50px;
+    border: 1px black;
+    border-top: dashed;
+    border-bottom: dashed;
+    border-left: dotted;
+    border-right: dotted;
+    border-color: red red green orange; 
+    margin:0px auto;
+}
+.content div{
+    width: 30%;
+    max-width: 300px;
+    padding: 25px 10px;
+    border: red 2px solid;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    background-color: #B0C4DE;
+}
+div:nth-child(2n+1){
+    margin:0px auto;
+    text-align: left;
+}
+div:nth-child(2n){
+    text-align: center;
+}
+footer{text-align: center;}
+

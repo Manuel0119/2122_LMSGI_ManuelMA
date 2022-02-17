@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!--
+        Descripción: Tarea 4
+        Autor: Manuel Martín Alonso
+        Fecha creación/modificación: 28/10/2021
+-->
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Solicitud de empleo">
+        <meta name="author" content="Manuel">
+        <meta name="keywords" content="HTML5,CSS,JavaScript">
+        <title>HTML 04 Manuel Martín Alonso </title>
+        <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+        <script>
+            function fetch()
+            {
+                var get = document.getElementById("get").value;
+                document.getElementById("put").value = get;
+            }
+        </script>
+        <style>
+            fieldset{
+                margin-top: 35px;
+                margin-bottom: 45px;
+                margin-right: 350px;
+                margin-left: 400px;
+                background-color: lightblue;
+            }
+            h3{
+                margin-top: 35px;
+                margin-bottom: 45px;
+                margin-right: 350px;
+                margin-left: 400px;
+            }
+            h1{text-align:center;}
+            body {
+                background-color: white;
+            }
+            input:not([type="file"]):not([type="image"]):not([type="submit"]):not([type="reset"]) {
+                border: 2px solid currentcolor;
+            }
+            input:not([type="file"]):not([type="image"]):not([type="submit"]):not([type="reset"]):invalid:required {
+                border: 2px dashed red;
+            }
+            input:not([type="file"]):not([type="image"]):not([type="submit"]):not([type="reset"]):invalid:focus {
+                background-image: linear-gradient(pink, lightgreen);
+            }
+            .centrado{
+                margin:10px auto;
+                display:block;
+            }
+            #pie{text-align: center}
+        </style>
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1>MULTIMEDIA: Formulario de solicitud de empleo</h1>
+        </header>
+        <form action="../form-result.php" method="post" target="_blank">
+            <div>
+                <h3>1. INFORMACIÓN PERSONAL</h3>
+                <fieldset>
+                    <p><img class="centrado" src="https://media.istockphoto.com/vectors/resume-cv-clipboard-with-job-application-form-and-pen-vector-vector-id1191253491?k=20&m=1191253491&s=170667a&w=0&h=7qYepOOmgqtYYQuUXEfKD4N3aoq83bxKwqWmu6GQtkg=" alt="DNI persona" width="200" height="200"></p>
+                    <p>
+                        <label for="Idnombre">Nombre:</label>
+                        <input type="text" name="Nombre" placeholder="Escribe tu nombre" id="Idnombre" size="22" pattern="[A-Za-z]{2-45}" required>
+
+                        <label>Primer apellido:</label>
+                        <input type="text" name="Apellido1" placeholder="Escribe tu primer apellido" id="Idapellido1" size="18" pattern="[A-Za-z]{2-20}" required>
+
+                        <label>Segundo apellido:</label>
+                        <input type="text" name="Apellido2" placeholder="Escribe tu segundo apellido" id="Idapellido2" size="20" pattern="[A-Za-z]{2-20}" required>
+
+                        <label for="IdFecha">Fecha de nacimiento: </label><input type="date" name="Fecha" id="IdFecha" min="1961-01-01" max="2003-12-31" value="2021-11-01" required>
+                    </p>
+                    <p>
+                        <label>Nacionalidad:</label>
+                        <input type="text" name="nacionalidad" id="Idnacionalidad" pattern="[A-Za-z]" required>
+                        <label for="IdMasculino">Sexo:<input type="radio" name="nacionalidad" id="IdMasculino" checked>Masculino</label>
+                        <label for="IdFemenino"><input type="radio" name="nacionalidad" id="IdFemenino">Femenino</label>&nbsp;&nbsp;
+                    </p>	
+                    <p>
+                        <label for="IdSuspadres">Vive con: <input type="radio" name="vive" id="IdSuspadres" checked>Sus padres</label>
+                        <label for="IdSufamilia"><input type="radio" name="vive" id="IdSufamilia">Su familia</label>
+                        <label for="IdParientes"><input type="radio" name="vive" id="IdParientes">Parientes</label>
+                        <label for="IdSolo"><input type="radio" name="vive" id="IdSolo">Solo</label>
+                    </p>
+                    <p>
+                        <label for="IdEdad">Edad: <input type="number" name="edad" id="IdEdad" min="18" max="60" required></label>
+
+                    </p>
+                    <p>
+                        <label for="Idresidencia">Dirección residencia: <input type="text" id="Idresidencia" required></label>
+                    </p>
+                    <p>
+                        <label for="Idmunicipio">Municipio: <input type="text" id="Idmunicipio" pattern="[A-Za-z]{3-44}" required></label>
+                    </p>
+                    <p>
+                        <label>Provincia: </label>
+                        <select>
+                            <option value="león">León</option>
+                            <option value="zamora">Zamora</option>
+                            <option value="segovia">Segovia</option>
+                            <option value="salamanca">Salamanca</option>
+                            <option value="soria">Soria</option>
+                            <option value="burgos">Burgos</option>
+                            <option value="valladolid">Valladolid</option>
+                            <option value="palencia">Palencia</option>
+                            <option value="ávila">Ávila</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="IdDni">N.I.F/N.I.E.: <input type="text" name="dni1" minlength="9" maxlength="9" id="IdDni" pattern="[0-9]{8}[A-Z]{1}" size="10" required></label>
+                        <input type="hidden" name="informacióndni" value="8 números del (0-9) con una letra">
+                    </p>
+                    <p><img src="media/images/10.png" alt="DNI persona" width="100" height="100"></p>
+                    <p>
+                        <label>Teléfono de contacto: </label>
+                        <input type="tel" name="teléfono1" id="Idtel2" pattern="[0-9]{3}\s[0-9]{3}\s[0-9]{3}" placeholder="000 000 000" minlength="9" required>&nbsp;
+                        <label>Email: <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="nombre@ejemplo.com" size="27" maxlength="35" multiple required ></label>
+                        <label for="contrasena">Contraseña: <input type="password" name="contrasena" id="contrasena" required></label>
+                    </p>
+                    <p>
+                        <label>Estado civil: </label><br>
+                        <label for="IdSoltero"><input type="radio" name="estado" value="soltero" id="IdSoltero" checked>Soltero/a </label>
+                        <label for="IdCasado"><input type="radio" name="estado" value="casado" id="IdCasado">Casado/a </label>
+                        <label for="IdViudo"><input type="radio" name="estado" value="otros" id="IdViudo">Otro </label>
+                    </p>
+                    <p>
+                        <label for="IdNo">¿Usted ha trabajado en el sector anteriormente?<input type="radio" name="trabajo" value="No" id="IdNo">No</label>&nbsp;&nbsp;
+                        <label for="IdSi"><input type="radio" name="trabajo" value="Si" id="IdSi">Si</label>
+                        <label for="IdFecha2">Fecha: <input type="date" name="fecha" id="IdFecha2"></label>
+                        <label for="IdDepartamento">Departamento: <input type="text" name="departamento" id="IdDepartamento"></label>
+                    </p>
+                    <p>
+                        <label for="IdSi3">¿Usted tiene carnet de conducir?<input type="radio" name="carnet" value="Si" id="IdSi3">Si</label>&nbsp;
+                        <label for="IdNo3"><input type="radio" name="carnet" value="No" id="IdNo3">No</label>&nbsp;&nbsp;
+                        <label for="Idcarnet">Selecciona el tipo de carnet que posee recientemente:</label>
+                        <input list="lstcarnet" name="carnet" id="Idcarnet">
+                        <datalist id="lstcarnet">
+                            <option value="AM">
+                            <option value="A1">
+                            <option value="A2">
+                            <option value="A">
+                            <option value="B">
+                        </datalist>
+                    </p>	
+                    <p>
+                        <label for="IdSi4">¿Usted tiene vehículo propio?<input type="radio" name="vehículo" value="Si" id="IdSi4">Si</label>&nbsp;
+                        <label for="IdNo4"><input type="radio" name="vehículo" value="No" id="IdNo4">No</label>
+                    </p>
+                    <p>
+                        <label for="IdVitae">Curriculum Vitae:  <input type="file" name="curriculumvitae" id="IdVitae"></label>
+                    </p>
+                    <p>
+                        Como crear tu curriculum vitae<br>
+                        <video width="200" height="200" controls><source src="media/video/cv.mp4" type="video/mp4"></video>
+                    </p>
+                    <p>
+                        Ejemplo de entrevista de trabajo<br><br>
+                        <audio controls><source src="media/audio/entrevista.wav" type="audio/wav"></audio>
+                    </p>
+                </fieldset>
+                <h3>2. INFORMACIÓN ACADÉMICA</h3>
+                <fieldset>
+                    <p>
+                        <label for="IdSi2">¿Realiza estudios actualmente? <input type="radio" name="est" id="IdSi2">Si</label>
+                        <label for="IdNo2"><input type="radio" name="est" id="IdNo2">No</label>&nbsp;&nbsp;
+                        <label for="especificar">Especifique: <input type="text" id="especificar"></label>
+                    </p>
+                    <p>2.1 Información de Estudios realizados<br>
+                        <label>Estudios que posee: </label><br><br>
+                        <label for="IdEso"><input type="checkbox" name="eso" value="ESO" id="IdEso" checked>Educación Secundaria Obligatoria</label><br>
+                        <label for="IdBachiller"><input type="checkbox" name="bachiller" value="bachiller" id="IdBachiller">Bachillerato</label>
+                        <label for="IdBachiller2"><input type="text" name="bachillertipo" id="IdBachiller2" placeholder="Especifique"></label><br>
+                        <label for="IdGrado"><input type="checkbox" name="gradouniversitario" value="gradouni" id="IdGrado">Grado Universitario</label>
+                        <label for="IdGrado2"><input type="text" name="gradotipo" id="IdGrado2" placeholder="Especifique"></label><br><br>
+                        <img src="media/images/11.png" alt="DNI persona" width="100" height="100">
+                        <textarea placeholder="Otros" rows="6" cols="25"></textarea><br>
+                    </p>	
+                </fieldset>
+                <h3>3. ESTADO DE SALUD Y HÁBITOS PERSONALES</h3>
+                <fieldset>
+                    <p>
+                        <label>¿Cómo considera su estado de salud actual?</label><br>
+                        <label for="IdEstado"><input type="radio" name="estadosalud" id="IdEstado" checked>Bueno </label>
+                        <label for="IdEstado2"><input type="radio" name="estadosalud" id="IdEstado2">Regular </label>
+                        <label for="IdEstado3"><input type="radio" name="estadosalud" id="IdEstado3">Malo </label><br><br>
+
+                        <label>¿Padece alguna enfermedad crónica?</label>
+                        <label for="IdEnfermedad"><input type="radio" name="enfermedad1" id="IdEnfermedad" checked>No </label>
+                        <label for="IdEnfermedad2"><input type="radio" name="enfermedad1" id="IdEnfermedad2">Si (especificar) </label>
+                        <label for="IdEnfermedad3"><input type="text" name="enfermedad2" id="IdEnfermedad3"></label>
+
+                    </p>
+                    <label for="habilidades">Describe tus habilidades y competencias:<br><textarea name="habilidades" rows="4" cols="25" id="habilidades"></textarea></label>
+                    <p>
+                        Habilidades más demandadas en una entrevista de trabajo<br><br>
+                        <audio controls><source src="media/audio/habilidades.ogg" type="audio/ogg"></audio>
+                    </p>
+                    <p>
+                        <label>Medios de contacto que utiliza: </label><br>
+                        <label for="IdMedios"><input type="checkbox" name="medioscomunicación2" id="IdMedios" checked>Email </label><br>
+                        <label for="IdMedios2"><input type="checkbox" name="medioscomunicación" id="IdMedios2">SMS </label><br>
+                        <label for="IdMedios3"><input type="checkbox" name="medioscomunicación3" id="IdMedios3">fax </label><br>
+                        <label for="IdMedios4"><input type="checkbox" name="medioscomunicación4" id="IdMedios4">Redes Sociales </label><br>
+                        <label for="IdMedios5"><input type="checkbox" name="medioscomunicación4" id="IdMedios5">Teléfono </label><br>
+                    </p>
+                    <p>
+                        <label>¿Tiene alguna pagina web o blog propia?</label>
+                        <label for="IdWeb"><input type="url" name="sitioweb" id="IdWeb" placeholder="Introduzca URL"></label>
+                    </p>
+                    <p>
+                        <label for="IdPuesto">¿Qué puesto solicita? <input type="search" name="busquedapuesto" placeholder="Puesto que solicita" id="IdPuesto" required></label>
+                        <input type="submit" value="Buscar">
+                    </p>
+                    <p>
+                        <label>Salario que desea cobrar(mensual)</label>
+                        <label for="get"><input type="range" min="1000" max="5000" name="salario1" step="100" id="get" onchange="fetch()"/></label><br>
+                        <input type="text" id="put" />
+                    </p>
+                    <p>
+                        <label>Determine la hora mínima y máxima disponible para trabajar</label><br>
+                        <label for="IdHoras">Hora mínima disponible<input type="time" name="horasdisponibles" id="IdHoras" min="08:30" max="10:00"></label>
+                        <label for="IdHoras2">Hora máxima disponible<input type="time" name="horasdisponibles" id="IdHoras2" min="13:30" max="14:30"></label>
+                    </p>
+                    <p>
+                        <label for="IdMes">¿Cuál es el mes de vacaciones veraniegas que le gustaria tener? <input type="month" name="mes" id="IdMes" min="2021-06" max="2021-09"></label>
+                    </p>
+                    <p>
+                        <label>Selecciona una semana de asuntos particulares: <input type="week" name="semanaelegida" min="2021-W01" max="2021-W52" step="1"></label>
+                    </p>
+                    <p>
+                        <label for="color">Color favorito: <input type="color" name="colorprincipal" id="color"></label>
+                    </p>
+                    <p>
+                        Formato de solicitud de empleo<br>
+                        <iframe class="video" src="https://www.youtube.com/embed/EKFZcVf9dOk?rel=0&amp;autoplay=1" title="YouTube video player"></iframe>
+                        <video width="200" height="200" controls><source src="media/video/FormatodeSolicituddeEmpleo.webm" type="video/webm"></video>
+                    </p>
+                    <p>
+                        Preguntas incómodas en una entrevista de trabajo<br>
+                        <video width="200" height="200" controls><source src="media/video/preguntas_incomodas.mp4" type="video/mp4"></video>
+                    </p>
+                    <p>
+                        Las 5 preguntas más desafiantes en una entrevista de trabajo<br><br>
+                        <audio controls><source src="media/audio/5_preguntas.mp3" type="audio/mp3"></audio>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar datos">
+                        <input type="reset" value="Restaurar formulario">
+                        <input type="image" name="enviarformulario" src="media/images/8.png" alt="Enviar formulario" width="140" height="40">
+                    </p>
+                </fieldset>
+            </div>
+        </form>
+        <footer>
+            <p id="pie">2021-22 IES LOS SAUCES. ©Todos los Derechos Reservados. <b>Manuel Martín Alonso</b></p>
+        </footer>
+    </body>
+</html>

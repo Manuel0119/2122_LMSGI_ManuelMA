@@ -1,0 +1,131 @@
+body{
+    width: 1024px;
+    margin-left: 200px;
+    margin-right: 300px;
+    font-family: 'calibri', arial, sans-serif;
+    background: url('../images/Le_petit_prince.png') top right;
+    background-repeat: no-repeat;
+}
+h1{
+    color: #ACD9B6;
+    font-size: 2em;
+    font-family: 'Goldman', cursive;
+    text-decoration: underline wavy #F2C172;  
+    letter-spacing: 0.20em;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
+p{
+   background-color: #95BF9B;
+   font-size: 1em;
+   color: white;
+   padding-top: 0.15em;
+   padding-bottom: 0.15em;
+   padding-left: 0.15em;
+   font-style: italic;
+}
+p span{
+   color: #730202;
+   height: 100px;
+   width: 75%;
+}
+hr{
+   border-color: red;
+   border-style: solid;
+   line-height: 2px;
+   background-color: red;
+   width: 75%;
+}
+ol{
+   margin-top: 0.5em; 
+}
+ul{
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.lista1 li{
+    list-style-type: circle;
+    list-style-position: inside;
+    border-top: 1.5px #730202 dashed;
+    border-right: 1.5px #730202 dashed;
+    border-left: 1.5px #730202 dashed;
+    font-size: 1em;
+}
+.lista1 li:last-child{
+  border-bottom: 1.5px #730202 dashed;  
+}
+.lista2 li{
+  list-style-type: square;
+  list-style-position: outside;
+  border-top: 1.5px #730202 dashed;
+  border-right: 1.5px #730202 dashed;
+  border-left: 1.5px #730202 dashed;
+  font-size: 1em;  
+}
+.lista2 li:last-child{
+  border-bottom: 1.5px #730202 dashed;  
+}
+.lista3 li{
+  list-style-image: url('../images/sqpurple.png');
+  list-style-position: inside;
+  border-top: 1.5px #730202 dashed;
+  border-right: 1.5px #730202 dashed;
+  border-left: 1.5px #730202 dashed;
+  font-size: 1em;    
+}
+.lista3 li:last-child{
+  border-bottom: 1.5px #730202 dashed;    
+}
+.lista4{
+    border: 4px #bb4246 dashed;
+    padding: 0.5em;
+    background-color: #952024;
+}
+.lista4 li::before{
+    content: "#";
+    display: inline-block;
+    width: 1em;
+    margin-left: -0.75em;
+    color:#bb4246;
+}
+.lista4 li{
+    font-size: 1em;
+    background-color: #D34847;
+    margin:0.5em;
+    color: #8b1b1e;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.lista5 li{
+  list-style-type: none;
+  font-size: 1em;  
+  background: #730202;
+  border-left: #F25C5C 5px solid;
+  padding: 5px;
+  margin-left: -2em;
+  color: #dd383e;
+}
+li.lista5{
+    background-color: #C74543;
+    width: 100%;
+    color: #ACD9B6;
+}
+.lista6{
+    margin-left: 0em;
+}
+.lista6 li{
+  list-style-type: disc;
+  color: #8E0010;
+  list-style-position: outside;
+  border-top: 2px #730202 dotted;
+  border-right: 2px #730202 dotted;
+  border-left: 2px #730202 dotted;
+  font-size: 1em;
+}
+.lista6 li:last-child{
+  border-bottom: 2px #730202 dotted;/*cambiar color*/
+}
+footer{text-align: center}
+
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE ejemplos [
+    <!ELEMENT ejemplos (ejemplo)*>
+    <!ATTLIST ejemplos
+              xmlns:xsi CDATA #IMPLIED
+              xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+    <!ELEMENT ejemplo (lenguaje,codigo)>
+    <!ELEMENT lenguaje (#PCDATA)>
+    <!ELEMENT codigo (#PCDATA)>
+]>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+<ejemplos xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='06.xsd'>
+    <ejemplo>
+        <lenguaje>Java</lenguaje>
+        <codigo>/* Este es un programa simple en Java...
+            NombreArchivo: "HelloWorld.java". */
+            class HelloWorld
+            {
+                // Tu programa comienza con una llamada a main().
+                // Imprime "Hola Mundo" a la ventana de la terminal.
+            public static void main(String args[])
+            {
+                System.out.println("Hola Mundo");
+            }
+            }
+        </codigo>
+    </ejemplo>
+    <ejemplo>
+        <lenguaje>HTML</lenguaje>
+        <codigo> <![CDATA[
+            <htmnl>
+                <head>
+                    <title>Hola LMSGI</title>
+                </head>
+                <body>
+                    <p>Hola Mundo</p>
+                </body>
+            </html>
+        ]]>
+        </codigo>
+    </ejemplo>
+</ejemplos>

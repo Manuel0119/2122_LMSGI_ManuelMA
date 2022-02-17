@@ -1,0 +1,130 @@
+* {
+    font-family: 'Calibri', arial, sans-serif;
+}
+body{
+    background-image: url('../images/Le_petit_prince.png');
+    background-position: top right;
+    margin-right: 250px;
+    background-repeat: no-repeat;
+    max-width: 75%;
+}
+h1{
+    background-color: #FEA500;
+    color: #fc4c07;
+    text-transform: uppercase;
+    font-variant: small-caps;
+}
+div{
+    padding:3px 0px;
+    margin:6px 0px;
+}
+.par1{
+    background-color: #B7D9E0;
+    color: green;
+    font-size: 18px;
+}
+.static{
+    border: #DAADA1 solid;
+    position: static;
+    border-width: 3px;
+}
+.relative{
+    border: #904AB4 dotted;
+    position: relative; 
+    left: 52px;
+}
+.fixed{
+    border: 3px #34B11B dashed;
+    background-color: #FFB973;
+    position: fixed;
+    max-width: 240px;
+    margin-bottom: 99px;
+    right: 0px;
+    bottom: 0px;
+}
+.relative1{
+    width: 533px;
+    position:relative;
+    height: 36px;
+    padding: 1em 0 114px 3px;
+    border: 3px #009900 solid;
+    z-index:2;
+}
+.relative1 img{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 2;
+    width: 153px;
+}
+.relative1 p{
+    position:absolute;
+    z-index: 2;
+    padding-left: 6px;
+    padding-right: 6px;
+    opacity: 0.95;
+}
+.absolute1{
+    width: 255px;
+    position:absolute;
+    border: 3px #ADFF2F solid;
+    left: 50%;
+    bottom: 0;
+    margin:3em 3px 3px 0;
+    padding:9px 0 49px 3px;
+}
+.sticky{
+    border: 3px #A6D95D solid ;
+    border-radius: 25px;
+    background-color: #008001;
+    text-align: center;
+    color: #A6D95D;
+    position: sticky;
+    top: 0px;
+}
+.container{
+    position:relative;
+    border:3px solid #8B008B;
+    width: 525px;
+    height: 301px;
+}
+.img2{
+    width:100%;
+    z-index:-1;
+    opacity:0.5;
+    height:auto;
+}
+.topleft, .topright, .center, .bottomleft, .bottomright{
+    border: #9A539B solid;
+    background-color: #FF9D00;
+    color: #9A539B;
+    font-size: 20px;
+    font-variant:small-caps;
+    position: absolute;
+    font-weight:bold;
+}
+.topleft{
+    top: 9px;
+    left: 9px;
+}
+.topright{
+    top: 9px;
+    right: 9px;
+}
+.center{
+    right:40%;
+    top:40%;
+}
+.bottomleft{
+    bottom:9px;
+    left:9px;
+}
+.bottomright{
+    bottom:9px;
+    right:9px;
+}
+footer p{
+    text-align: center;
+}
+
+

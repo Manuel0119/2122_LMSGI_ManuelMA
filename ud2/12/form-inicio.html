@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="ES">
+    <head>
+        <title>HTML 12 Manuel Martín Alonso</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Manuel Martín Alonso">
+        <meta name="application-name" content="Examen 01">
+        <meta name="description" content="Index Examen 01">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="robots" content="index, follow">    
+        <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <style>
+            #caja2{
+                background-color: black;
+                opacity: 0.8;
+                padding: 0px 45px;
+                padding-top: 5px;
+            }
+            #inicio1{
+                font-size: 25px;
+                text-align: center;
+            }
+            #formulario2{
+                margin: 0 auto;
+                text-align: center;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            #email{
+               display: inline-block;
+               padding: 10px 5px;
+               width: 90%;
+            }
+            #contrasena{
+               display: inline-block;
+               padding: 10px 5px;
+               width: 90%;
+            }
+            input{
+                margin-bottom: 10px;
+            }
+            #inicioses{
+                padding: 5px 40px;
+                color: white;
+                background-color: red;
+                font-size: 20px;
+                letter-spacing: 2px;
+                font-family: serif, cursive;
+                width: 93%;
+            }
+            #recuerda{
+                font-size: 15px;
+                text-align: left;
+                padding-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>   
+            <h1><a href="index.html">NEFLIX</a></h1>
+        </header>
+        <main>
+            <div id="caja2">
+                <p id="inicio1">Iniciar sesion</p>
+                <form action="../loginNeflix.php" method="get" id="formulario2">
+                    <input type="email" id="email" placeholder="Correo electrónico o numero de telefono" size="64" maxlength="32">
+                    <input type="password" id="contrasena" placeholder="Contraseña" size="64" maxlength="16">
+                    <input type="submit" id="inicioses" value="Iniciar sesion">
+                    <p id="recuerda"><input type="checkbox" id="check">  Recuerdame</p>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

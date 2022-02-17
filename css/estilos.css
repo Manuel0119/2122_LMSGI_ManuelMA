@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    margin: 15px;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    margin: 5px 10px 0px 0px; 
+}
+
+h1{
+    width: 66%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.rss{
+    margin-right: 15px;
+}
+
+.imagen {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.imagen2{
+    width: 50%;
+    float: left;
+}
+
+.imagen3 {
+    height:75%; 
+    width:100%;
+}
+
+.imagen4{
+    width: 40px;
+}
+
+.imagen5{
+    width: 40px;
+}
+
+.texto{
+    float: left;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.inicio1, .pruebas1, .tema2 {
+    transition: all 600ms;
+}
+
+.portada{
+  width: 100%;  
+  display: flex;
+}
+
+#textop{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 36px;
+    text-align: justify;
+}
+
+#encabezado{
+    background-color: #008000;
+    color: white;
+    font-size: 12px;
+    padding-top: 3px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+#navegacion{
+    background-color: #008000;
+    padding: 20px 0 35px 0;
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-bottom: 11px;
+    margin-bottom: 20px;
+}
+#navegacion a{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    color: white;
+    font-size: 25px;
+    padding: 24px 20px 28px 20px;
+}
+#navegacion a:hover{
+    background-color: white;
+    color: #008000;
+}
+.content{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#prueba1, #prueba2, #prueba3, 
+#prueba4, #prueba5, #prueba6 {
+    width: 100%;
+    padding: 25px 10px;
+    border: black 2px solid;
+    border-radius: 20px;
+    max-width: 450px;
+    margin: 20px;
+    height: 264px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#actividad1, #actividad2, #actividad3, 
+#actividad4, #actividad5, #actividad6, 
+#actividad7, #actividad8, #actividad9,
+#actividad10, #actividad11, #actividad12{
+    width: 100%;
+    padding: 25px 10px;
+    border: black 2px solid;
+    border-radius: 20px;
+    max-width: 450px;
+    margin: 20px;
+    height: 264px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.actividad{
+    text-align: center;
+    font-size: 20px;
+    color: orange;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 19px;
+    font-size: 20px;
+}
+
+.abrir {
+    color: white;
+    background: green;
+    padding: 20px 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.contenedor {
+    width: 100%;
+    max-height: 1000px;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 600ms;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.contenedor:target {
+    background: rgba(0,0,0,0.8);
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    overflow-y: hidden;
+}
+
+.contenedor:target .popup {
+    top: 50%;
+    left: 50%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    visibility: visible;
+}
+
+.popup {
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+    position: relative;
+    visibility: hidden;
+    top: -80%;
+    left: -80%;
+    transform: rotate(90deg) translate(-150%, 230%);
+    background: white;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cerrar {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    line-height: 10px;
+    padding: 20px;
+}
+
+.resultado{
+    background-color: green;
+    color: white;
+    padding: 3px 25px;
+    height: 35px;
+    border-radius: 25px;
+    right: 35%;
+    top: 85%;
+    font-size: 25px;
+    margin: 7px;
+}
+
+address {
+    text-align: center;
+    font-style: italic;
+    background-color: #008000;
+    padding: 5px 0 5px 0;
+    color: white;
+    font-size: 20px;
+}
+
+address:active{
+    visibility: hidden;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
