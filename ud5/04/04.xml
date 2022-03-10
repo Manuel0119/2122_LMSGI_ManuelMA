@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE mapa_estelar [
+    <!ELEMENT mapa_estelar (constelacion,estrella)+>
+    <!ATTLIST mapa_estelar
+            xmlns:xsi CDATA #IMPLIED
+            xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+    <!ELEMENT constelacion (#PCDATA |nombre_espanol|superficie|estrellas|objetos|colindantes|observacion)*> 
+    <!ATTLIST constelacion nombreLatin CDATA #IMPLIED>
+    <!ELEMENT nombre_espanol (#PCDATA)>
+    <!ELEMENT superficie (#PCDATA)>
+    <!ELEMENT estrellas (asterismo,masBrillante)>
+    <!ATTLIST estrellas num_estrellas CDATA #REQUIRED>
+    <!ELEMENT asterismo (#PCDATA)>
+    <!ELEMENT masBrillante (#PCDATA)>
+    <!ATTLIST masBrillante luminosidad CDATA #IMPLIED>
+    <!ELEMENT objetos (cumulos,galaxias,cuasares,lluvia_meteoros*)>
+    <!ELEMENT cumulos (#PCDATA)>
+    <!ELEMENT galaxias (#PCDATA)>
+    <!ELEMENT cuasares (#PCDATA)>
+    <!ELEMENT lluvia_meteoros (#PCDATA)>
+    <!ELEMENT colindantes (nombre+)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT observacion (hemisferio,mes,hora)>
+    <!ELEMENT hemisferio (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT hora (#PCDATA)>
+    <!ELEMENT estrella (nombre,constelacion,distancia,luminosidad,temperatura,masa)>
+    <!ELEMENT distancia (#PCDATA)>
+    <!ATTLIST distancia medida CDATA #FIXED "anyos luz">
+    <!ELEMENT luminosidad (#PCDATA)>
+    <!ATTLIST luminosidad medida CDATA "soles">
+    <!ELEMENT temperatura (#PCDATA)>
+    <!ATTLIST temperatura medida CDATA "k">
+    <!ELEMENT masa (#PCDATA)>
+    <!ATTLIST masa medida CDATA "soles">
+]> 
+<mapa_estelar xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='04.xsd'>
+    <constelacion nombreLatin="Ursa Mior">
+        <nombre_espanol>La Osa Mayor</nombre_espanol>
+        <superficie>1279.7</superficie>
+        <estrellas num_estrellas="209">
+            <asterismo>7</asterismo>
+            <masBrillante luminosidad="1.77">Alioth</masBrillante>
+        </estrellas>
+        <objetos>
+            <cumulos>false</cumulos>
+            <galaxias>false</galaxias>
+            <cuasares>false</cuasares>
+            <lluvia_meteoros>Kappa Ursa Mayóridas</lluvia_meteoros>
+            <lluvia_meteoros>Lambda Ursa Mayóridas</lluvia_meteoros>
+            <lluvia_meteoros>Psi Ursa Mayóridas</lluvia_meteoros>
+            <lluvia_meteoros>Ursa Mayóridas de octubre</lluvia_meteoros>
+        </objetos>
+        <colindantes>
+                <nombre>Bootes</nombre>
+                <nombre>Camelopardalis</nombre>
+                <nombre>Canes Venatici</nombre>
+                <nombre>Draco</nombre>
+                <nombre>Leo</nombre>
+                <nombre>Leo Minor</nombre>
+                <nombre>Lynx</nombre>
+        </colindantes>
+        <observacion>
+            <hemisferio>Norte</hemisferio>
+            <mes>--04</mes>
+            <hora>21:00:00</hora>
+        </observacion>
+    </constelacion>
+    <estrella>
+        <nombre>Alioth</nombre>
+        <constelacion>Osa Nayor</constelacion>
+        <distancia medida="anyos luz">81</distancia>
+        <luminosidad medida="soles">108</luminosidad>
+        <temperatura medida="K">9400</temperatura>
+        <masa medida="soles">3</masa>
+    </estrella>
+</mapa_estelar>
+

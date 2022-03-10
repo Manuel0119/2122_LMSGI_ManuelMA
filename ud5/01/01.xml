@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<actividades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gimnasio.xsd">
+<!DOCTYPE actividades [
+    <!ELEMENT actividades (actividad+)>
+    <!ATTLIST actividades
+            xmlns:xsi CDATA #IMPLIED
+            xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+    <!ELEMENT actividad (codigo+,titulo+,fecha_inicio+,sesiones+)>
+    <!ATTLIST actividad nivel (infantil | adultos) #REQUIRED>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT fecha_inicio (#PCDATA)>
+    <!ELEMENT sesiones (minutos_sesion+,sesiones_semana+)>
+    <!ATTLIST sesiones intensidad (suave | moderada | fuerte) #REQUIRED>
+    <!ELEMENT minutos_sesion (#PCDATA)>
+    <!ELEMENT sesiones_semana (#PCDATA)>
+]>
+<actividades xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='01.xsd'>
   <actividad nivel="infantil">
     <codigo>A01
     </codigo>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="garaje">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="coches">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="coche" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="matricula" type="xs:string"/>
+                                        <xs:element name="propietario" type="xs:string"/>
+                                        <xs:element name="marca" type="xs:string"/>
+                                        <xs:element name="modelo" type="xs:string"/>
+                                        <xs:element name="color" type="xs:string"/>
+                                        <xs:element name="km" type="xs:positiveInteger"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="reparaciones">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="reparacion" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="matricula" type="xs:string"/>
+                                        <xs:element name="descripcion" type="xs:string"/>
+                                        <xs:element name="fecha_entrada" type="xs:string"/>
+                                        <xs:element name="fecha_salida" type="xs:string"/>
+                                        <xs:element name="horas" type="xs:positiveInteger"/>
+                                    </xs:sequence>
+                                   <xs:attribute name="codigo" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>       
+</xs:schema>
