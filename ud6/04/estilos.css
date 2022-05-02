@@ -1,0 +1,37 @@
+h1{
+    color:#ffffff;
+    background-color: #387ab6;
+}
+
+html{
+    font-family: 'Permanent Marker', cursive;
+}
+
+thead{
+    background-color: #387ab6;
+    color:#ffffff;
+}
+
+table{
+    border: black 1px solid;
+    width: 50%;
+}
+
+td{
+    width: 50%;
+}
+
+.mat{
+    text-align: center;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.totales{
+    background-color: #387ab6;
+    color:#ffffff;
+}

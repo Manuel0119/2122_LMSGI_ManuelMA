@@ -1,38 +1,46 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE universidad [
-    <!ELEMENT universidad (nombre,pais,carreras,asignaturas,alumnos)>
+    <!ELEMENT universidad (nombre,fechaconstruccion,pais,carreras,asignaturas,alumnos)>
+    <!ATTLIST universidad
+                 xmlns:xsi CDATA #IMPLIED
+                  xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
     <!ELEMENT nombre (#PCDATA)>
-    <!ATTLIST nombre year CDATA #REQUIRED>
+    <!ATTLIST nombre
+              year CDATA #IMPLIED>
     <!ELEMENT fechaconstruccion (#PCDATA)>
     <!ELEMENT pais (#PCDATA)>
-    <!ELEMENT carreras (carrera+)>
-    <!ELEMENT carrera (nombre+,plan+,creditos+,centro+,subdirector?)>
-    <!ATTLIST carrera id IDREF #REQUIRED>
+    <!ELEMENT carreras (carrera)*>
+    <!ELEMENT carrera (#PCDATA|nombre|plan|creditos|centro|subdirector)*>
+    <!ATTLIST carrera
+              id ID #IMPLIED
+              codigo CDATA #IMPLIED>
     <!ELEMENT plan (#PCDATA)>
     <!ELEMENT creditos (#PCDATA)>
     <!ELEMENT centro (#PCDATA)>
     <!ELEMENT subdirector (#PCDATA)>
     <!ELEMENT asignaturas (asignatura+)>
-    <!ELEMENT asignatura (nombre+,creditos_teoricos+,creditos_practicos+,trimestre+)>
-    <!ATTLIST asignatura id IDREF #REQUIRED
-                         titulacion IDREF #REQUIRED>
+    <!ELEMENT asignatura (#PCDATA|nombre|creditos_teoricos|creditos_practicos|trimestre)*>
+    <!ATTLIST asignatura
+              id ID #IMPLIED
+              titulacion CDATA #IMPLIED
+              codigo CDATA #IMPLIED>
     <!ELEMENT creditos_teoricos (#PCDATA)>
     <!ELEMENT creditos_practicos (#PCDATA)>
     <!ELEMENT trimestre (#PCDATA)>
     <!ELEMENT alumnos (alumno+)>
-    <!ELEMENT alumno (apellido1+,apellido2+,nombre+,sexo+,estudios+)>
-    <!ATTLIST alumno id IDREF #REQUIRED>
+    <!ELEMENT alumno (apellido1,apellido2,nombre,sexo,estudios)>
+    <!ATTLIST alumno
+              id ID #IMPLIED
+              beca CDATA #IMPLIED>
     <!ELEMENT apellido1 (#PCDATA)>
     <!ELEMENT apellido2 (#PCDATA)>
     <!ELEMENT sexo (#PCDATA)>
-    <!ELEMENT estudios (carrera+,asignaturas+,proyecto?)>
-    <!ATTLIST carrera codigo IDREF #REQUIRED>
-    <!ATTLIST asignatura codigo IDREF #REQUIRED>
+    <!ELEMENT estudios (carrera,asignaturas,proyecto?)>
     <!ELEMENT proyecto (#PCDATA)>
 ]>
-<universidad>
+<universidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="03.xsd">
 
-    <nombreuni year="1964">Universidad de Victoria</nombreuni>
+    <nombre year="1964">Universidad de Victoria</nombre>
     <fechaconstruccion>14/03/1964</fechaconstruccion>
     <pais>España</pais>
     <carreras>

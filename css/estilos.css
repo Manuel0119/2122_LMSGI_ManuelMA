@@ -20,7 +20,7 @@ li{
 }
 
 h1{
-    width: 66%;
+    width: 83%;
 }
 
 h2 {
@@ -68,6 +68,14 @@ h2 {
 .portada{
   width: 100%;  
   display: flex;
+  margin-bottom: 100px;
+}
+
+.portadarss{
+    width: 100%;
+    display: flex;
+    margin-top: 18%;
+    justify-content: space-around;
 }
 
 #textop{
@@ -112,7 +120,7 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 #prueba1, #prueba2, #prueba3, 

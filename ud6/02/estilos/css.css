@@ -1,0 +1,84 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    background-color: grey;
+    padding: 0.6% 6% 0.6% 0.6%;
+    margin-bottom: 18px
+}
+
+h1,h2{
+    width: 100%;
+    color:#0CA102;
+}
+
+h2{
+    color: grey;
+    padding: 0.5% 0.5%;
+    background-color: green;
+}
+
+.nticket2{
+    border-style: solid;
+    border-color: #ccff33;
+    display: inline-block;
+    position: relative;
+    border-collapse: separate;
+    padding-left: 8px;
+    font-weight: bold;
+    margin-top: 1em;
+    width: 100%;
+    border:3px;
+}
+
+.table{
+    margin: 0 auto;
+    width: 85%;
+    border-collapse: collapse; 
+}
+
+.nticket{
+    font-size: 20px;
+    color:#009900;
+    width: 100%;
+}
+.product{
+    font-family: cursive;
+}
+    
+.nombre,.precio{
+    font-family: Helvetica;
+    color: grey;
+}
+
+.fecha{
+    font-family: cursive;
+    text-align: center;
+    font-size: 0.75em;
+    color:#009900;  
+}
+
+tr{
+    border-color: darkgray;
+    border-bottom :1px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.foot1{
+    color:lightgray;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: right;
+    padding-top: 10px;
+    width: 100%;
+    background-color:#009900;
+}
+.foot2{
+    padding: 0.35em;
+}

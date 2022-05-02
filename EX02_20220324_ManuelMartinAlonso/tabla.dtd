@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT tabla_periodica (atomo+)>
+<!ATTLIST tabla_periodica 
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED>
+<!ELEMENT atomo (nombre,simbolo,num_atomico,valencias?,peso_atomico,punto_ebu?,punto_fus?,densidad?)>
+<!ATTLIST atomo periodo CDATA #REQUIRED
+                grupo CDATA #REQUIRED
+                bloque (s|p|d|f) #REQUIRED> 
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT simbolo (#PCDATA)>
+<!ELEMENT num_atomico (#PCDATA)>
+<!ELEMENT valencias (valencia*)>
+<!ELEMENT valencia (#PCDATA)>
+<!ELEMENT peso_atomico (#PCDATA)>
+<!ELEMENT punto_ebu (#PCDATA)>
+<!ATTLIST punto_ebu unidades CDATA #REQUIRED>
+<!ELEMENT punto_fus (#PCDATA)>
+<!ATTLIST punto_fus unidades CDATA #REQUIRED>
+<!ELEMENT densidad EMPTY>
+<!ATTLIST densidad valor CDATA #REQUIRED>
+
+
+

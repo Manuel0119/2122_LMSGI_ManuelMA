@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Manuel MA Novedades de Tecnología de la Comunicación</title>
+        <link>https://daw102.ieslossauces.es/</link>
+        <description>Actualizaciones de la página</description>
+        <language>es-es</language>
+        <copyright>Derechos reservados por Manuel Martín Alonso 2021-2022</copyright>
+        <item>
+            <title>Datos de la Tabla Periódica</title>
+            <link>https://daw102.ieslossauces.es/EX02_20220324_ManuelMartinAlonso/tabla.xml</link>
+            <description></description>
+            <guid isPermaLink="true">https://daw102.ieslossauces.es/EX02_20220324_ManuelMartinAlonso/tabla.xml</guid>
+            <category>XML</category>
+        </item>
+        <item>
+            <title>Validación de la tabla periódica</title>
+            <link>https://daw102.ieslossauces.es/EX02_20220324_ManuelMartinAlonso/tabla.xsd</link>
+            <description></description>
+            <guid isPermaLink="true">https://daw102.ieslossauces.es/EX02_20220324_ManuelMartinAlonso/tabla.xsd</guid>
+            <category>XSD Schema</category>
+        </item>
+        <item>
+            <title>Consultas en la BD alumnos</title>
+            <link>https://daw102.ieslossauces.es/EX02_20220324_ManuelMartinAlonso/tabla.md</link>
+            <description></description>
+            <guid isPermaLink="true">https://daw102.ieslossauces.es/EX02_20220324_ManuelMartinAlonso/tabla.md</guid>
+            <category>MD</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,30 @@
+.vivienda1{
+    background-color: #387ab6;
+    color:#ffffff;
+    width: 10%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.ntotal{
+    background-color: #387ab6;
+    color:#ffffff;
+    width: 10%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.total{
+    background-color: #387ab6;
+    color:#ffffff;
+    width: 10%;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+h1{
+    background-color: grey;
+    padding: 0.6% 6% 0.6% 0.6%;
+    margin-bottom: 18px
+}

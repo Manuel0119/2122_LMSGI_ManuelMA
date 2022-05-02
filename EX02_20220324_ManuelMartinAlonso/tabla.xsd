@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">  
+    <!--Declaracion de schema-->
+    <xs:element name="tabla_periodica">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="atomo" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="simbolo">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:maxLength value="3"/>
+                                    </xs:restriction>
+                                </xs:simpleType> 
+                            </xs:element>
+                            <xs:element name="num_atomico">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:positiveInteger">
+                                        <xs:minInclusive value="1"/>
+                                        <xs:maxInclusive value="118"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="valencias" minOccurs="0" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="valencia" minOccurs="1" maxOccurs="6">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:minInclusive value="-3"/>
+                                                    <xs:maxInclusive value="8"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="peso_atomico">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:float"/> 
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="punto_ebu" minOccurs="0" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:float">
+                                            <xs:attribute name="unidades">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:pattern value="C|K"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="punto_fus">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:float">
+                                            <xs:attribute name="unidades">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:pattern value="C|K"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="densidad" minOccurs="0" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:attribute name="valor" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="periodo">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:positiveInteger">
+                                <xs:minInclusive value="1"/>
+                                <xs:maxInclusive value="7"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                        </xs:attribute> 
+                        <xs:attribute name="grupo">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:positiveInteger">
+                                    <xs:minInclusive value="1"/>
+                                    <xs:maxInclusive value="18"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute> 
+                        <xs:attribute name="bloque" type="xs:string"/>
+                    </xs:complexType>  
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
