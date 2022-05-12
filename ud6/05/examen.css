@@ -1,0 +1,20 @@
+#contenedor{
+    background-color: gray;
+}
+
+#contenido{
+    background-color: white;
+}
+
+#envio{
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+div input{
+    margin-right: 10px;
+}
+
+
