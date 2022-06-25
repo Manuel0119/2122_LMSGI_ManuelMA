@@ -1,0 +1,15 @@
+{
+  "Users":[
+       {"name":"Manuel",
+        "color":"black",
+        "tamaño_texto":"25px",
+        "color_texto":"white",
+        "language":"Español de España",
+        "pantalla_inicio":"Hola buenos dias"
+       }
+    ]  
+  }
+  
+  
+  
+

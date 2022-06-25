@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modulos>
+    <modulo>
+        <sigla>EDD</sigla>
+        <nombre>Entornos de Desarrollo</nombre>
+        <profesor codigo="ARG" >Antonio Ramos Garcia</profesor>
+    </modulo>
+    <modulo>
+        <sigla>LMSGI</sigla>
+        <nombre>Lenguaje de Marcas y Sistemas de Gestion de la Información</nombre>
+        <profesor codigo="ARN">Amor Rodriguez Navarro</profesor>
+    </modulo>
+    <modulo>
+        <sigla>PROG</sigla>
+        <nombre>Programación</nombre>
+        <profesor codigo="ACF">Ambrosio Casado Fernandez</profesor>
+    </modulo>
+    <modulo>
+        <sigla>BBDD</sigla>
+        <nombre>Bases de Datos</nombre>
+        <profesor codigo="HRO">Hermelinda Ramos Osorio</profesor>
+    </modulo>
+    <modulo>
+        <sigla>FOL</sigla>
+        <nombre>Formación y Orientacion Laboral</nombre>
+        <profesor codigo="MTRG">Maria Teresa Rodríguez García</profesor>
+    </modulo>
+    <modulo>
+        <sigla>SINF</sigla>
+        <nombre>Sistemas de Información</nombre>
+        <profesor codigo="MDB">Manuel Dados Borbujo</profesor>
+    </modulo>
+</modulos>

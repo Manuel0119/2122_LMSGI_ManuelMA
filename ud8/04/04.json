@@ -1,0 +1,36 @@
+{
+    "Title": "Bill & Ted Face the Music",
+    "Year": "2020",
+    "Rated": "PG-13",
+    "Released": "28 Aug 2020",
+    "Runtime": "91 min",
+    "Genre": "Adventure, Comedy, Music",
+    "Director": "Dean Parisot",
+    "Writer": "Chris Matheson, Ed Solomon",
+    "Actors": "Keanu Reeves, Alex Winter, Kristen Schaal",
+    "Plot": "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    "Language": "English, German, Chaozhou, Spanish",
+    "Country": "United States",
+    "Awards": "12 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTRiNzFhNjAtNTdhMS00ZjViLWFhNTUtMWJlMTJkMGM1YzM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "Ratings": [{
+            "Source": "Internet Movie Database",
+            "Value": "5.9/10"
+        }, {
+            "Source": "Rotten Tomatoes",
+            "Value": "82%"
+        }, {
+            "Source": "Metacritic",
+            "Value": "65/100"
+        }],
+    "Metascore": "65",
+    "imdbRating": "5.9",
+    "imdbVotes": "45,027",
+    "imdbID": "tt1086064",
+    "Type": "movie",
+    "DVD": "01 Sep 2020",
+    "BoxOffice": "$3,439,660",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+}

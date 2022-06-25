@@ -17,4 +17,11 @@ div input{
     margin-right: 10px;
 }
 
+.fondo {
+    display: block;
+}
+
+.fondo:hover{
+    background-color: grey;
+}
 

@@ -33,30 +33,58 @@
                                 <div id="contenido">
                                     <xsl:value-of select="concat(@id,' , ',enunciado)"/>
                                     <xsl:for-each select="respuestas/respuesta">
-                                        <label style="display:block">
-                                            <input type="radio" id="pregunta" name="pregunta">
-                                                <xsl:attribute name="id">
-                                                    <xsl:value-of select="concat('pregunta',../../@id,position())"/>
-                                                </xsl:attribute>
-                                                <xsl:attribute name="name">
-                                                    <xsl:value-of select="concat('pregunta',../../@id)"/>
-                                                </xsl:attribute>
-                                                <xsl:attribute name="value">
-                                                    <xsl:value-of select="position()"/>
-                                                </xsl:attribute> 
-                                                <xsl:if test="$solucion!='no'">
-                                                    <xsl:attribute name="disabled">
-                                                        <xsl:value-of select="disabled"/>
+                                        <xsl:if test="$solucion='no'">
+                                            <label class="fondo">
+                                                <input type="radio" id="pregunta" name="pregunta">
+                                                    <xsl:attribute name="id">
+                                                        <xsl:value-of select="concat('pregunta',../../@id,position())"/>
                                                     </xsl:attribute>
-                                                    <xsl:if test="@correcta='correcta'">
-                                                        <xsl:attribute name="checked">
-                                                            <xsl:value-of select="checked"/>
+                                                    <xsl:attribute name="name">
+                                                        <xsl:value-of select="concat('pregunta',../../@id)"/>
+                                                    </xsl:attribute>
+                                                    <xsl:attribute name="value">
+                                                        <xsl:value-of select="position()"/>
+                                                    </xsl:attribute> 
+                                                    <xsl:if test="$solucion!='no'">
+                                                        <xsl:attribute name="disabled">
+                                                            <xsl:value-of select="disabled"/>
                                                         </xsl:attribute>
-                                                    </xsl:if> 
-                                                </xsl:if>
-                                            </input>    
+                                                        <xsl:if test="@correcta='correcta'">
+                                                            <xsl:attribute name="checked">
+                                                                <xsl:value-of select="checked"/>
+                                                            </xsl:attribute>
+                                                        </xsl:if> 
+                                                    </xsl:if>
+                                                </input>    
+                                                <xsl:value-of select="current()"/>
+                                            </label>
+                                        </xsl:if>    
+                                        <xsl:if test="$solucion='si'">
+                                            <label style="display: block">
+                                                <input type="radio" id="pregunta" name="pregunta">
+                                                    <xsl:attribute name="id">
+                                                        <xsl:value-of select="concat('pregunta',../../@id,position())"/>
+                                                    </xsl:attribute>
+                                                    <xsl:attribute name="name">
+                                                        <xsl:value-of select="concat('pregunta',../../@id)"/>
+                                                    </xsl:attribute>
+                                                    <xsl:attribute name="value">
+                                                        <xsl:value-of select="position()"/>
+                                                    </xsl:attribute> 
+                                                    <xsl:if test="$solucion!='no'">
+                                                        <xsl:attribute name="disabled">
+                                                            <xsl:value-of select="disabled"/>
+                                                        </xsl:attribute>
+                                                        <xsl:if test="@correcta='correcta'">
+                                                            <xsl:attribute name="checked">
+                                                                <xsl:value-of select="checked"/>
+                                                            </xsl:attribute>
+                                                        </xsl:if> 
+                                                    </xsl:if>
+                                                </input>    
                                             <xsl:value-of select="current()"/>
-                                        </label>
+                                            </label>
+                                        </xsl:if>
                                     </xsl:for-each>
                                 </div>
                             </fieldset>

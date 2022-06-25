@@ -1,0 +1,26 @@
+body{
+    width: 1024px;
+    margin: 0 auto;
+}
+h1{
+    color: red;
+    background-color: black;
+    margin: 0 auto;
+}
+
+a{
+    margin-left: 10px;
+}
+
+.contenedor{
+    border: 1px grey solid;
+    width: 455px;
+    margin: 24px;
+    display: flex;
+}
+
+.contenedor_grande{
+    display: flex;
+    flex-wrap: wrap;
+}
+

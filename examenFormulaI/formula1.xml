@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<formula1 temporada="2014">
+	<clasificacion carrera="6">
+		<clasificacionpilotos posicion="1" puntos="122" victorias="2">
+			<piloto pilotoId="rosberg" id="ROS" url="http://es.wikipedia.org/wiki/Nico_Rosberg">
+				<numero>6</numero>
+				<nombre>Nico</nombre>
+				<apellido>Rosberg</apellido>
+				<fechanacimiento>1985-06-27</fechanacimiento>
+				<pais>Alemania</pais>
+			</piloto>
+			<constructor constructorId="mercedes" url="http://es.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One">
+				<nombre>Mercedes</nombre>
+				<pais>Alemania</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="2" puntos="118" victorias="4">
+			<piloto pilotoId="hamilton" id="HAM" url="http://es.wikipedia.org/wiki/Lewis_Hamilton">
+				<numero>44</numero>
+				<nombre>Lewis</nombre>
+				<apellido>Hamilton</apellido>
+				<fechanacimiento>1985-01-07</fechanacimiento>
+				<pais>Gran Bretaña</pais>
+			</piloto>
+			<constructor constructorId="mercedes" url="http://es.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One">
+				<nombre>Mercedes</nombre>
+				<pais>Alemania</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="3" puntos="61" victorias="0">
+			<piloto pilotoId="alonso" id="ALO" url="http://es.wikipedia.org/wiki/Fernando_Alonso">
+				<numero>14</numero>
+				<nombre>Fernando</nombre>
+				<apellido>Alonso</apellido>
+				<fechanacimiento>1981-07-29</fechanacimiento>
+				<pais>España</pais>
+			</piloto>
+			<constructor constructorId="ferrari" url="http://es.wikipedia.org/wiki/Scuderia_Ferrari">
+				<nombre>Ferrari</nombre>
+				<pais>Italia</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="4" puntos="54" victorias="0">
+			<piloto pilotoId="ricciardo" id="RIC" url="http://es.wikipedia.org/wiki/Daniel_Ricciardo">
+				<numero>3</numero>
+				<nombre>Daniel</nombre>
+				<apellido>Ricciardo</apellido>
+				<fechanacimiento>1989-07-01</fechanacimiento>
+				<pais>Australia</pais>
+			</piloto>
+			<constructor constructorId="red_bull" url="http://es.wikipedia.org/wiki/Red_Bull_Racing">
+				<nombre>Red Bull</nombre>
+				<pais>Austria</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="5" puntos="47" victorias="0">
+			<piloto pilotoId="hulkenberg" id="HUL" url="http://es.wikipedia.org/wiki/Nico_H%C3%BClkenberg">
+				<numero>27</numero>
+				<nombre>Nico</nombre>
+				<apellido>Hulkenberg</apellido>
+				<fechanacimiento>1987-08-19</fechanacimiento>
+				<pais>Alemania</pais>
+			</piloto>
+			<constructor constructorId="force_India" url="http://es.wikipedia.org/wiki/Force_India">
+				<nombre>Force India</nombre>
+				<pais>India</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="6" puntos="45" victorias="0">
+			<piloto pilotoId="vettel" id="VET" url="http://es.wikipedia.org/wiki/Sebastian_Vettel">
+				<numero>5</numero>
+				<nombre>Sebastian</nombre>
+				<apellido>Vettel</apellido>
+				<fechanacimiento>1987-07-03</fechanacimiento>
+				<pais>Alemania</pais>
+			</piloto>
+			<constructor constructorId="red_bull" url="http://es.wikipedia.org/wiki/Red_Bull_Racing">
+				<nombre>Red Bull</nombre>
+				<pais>Austria</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="7" puntos="34" victorias="0">
+			<piloto pilotoId="bottas" id="BOT" url="http://es.wikipedia.org/wiki/Valtteri_Bottas">
+				<numero>17</numero>
+				<nombre>Valtteri</nombre>
+				<apellido>Bottas</apellido>
+				<fechanacimiento>1989-08-29</fechanacimiento>
+				<pais>Finlandia</pais>
+			</piloto>
+			<constructor constructorId="williams" url="http://es.wikipedia.org/wiki/Williams_F1">
+				<nombre>Williams</nombre>
+				<pais>Gran Bretaña</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="8" puntos="31" victorias="0">
+			<piloto pilotoId="button" id="BUT" url="http://es.wikipedia.org/wiki/Jenson_Button">
+				<numero>22</numero>
+				<nombre>Jenson</nombre>
+				<apellido>Button</apellido>
+				<fechanacimiento>1980-01-19</fechanacimiento>
+				<pais>Gran Bretaña</pais>
+			</piloto>
+			<constructor constructorId="mclaren" url="http://es.wikipedia.org/wiki/McLaren">
+				<nombre>McLaren</nombre>
+				<pais>Gran Bretaña</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="9" puntos="21" victorias="0">
+			<piloto pilotoId="magnussen" id="MAG" url="http://es.wikipedia.org/wiki/Kevin_Magnussen">
+				<numero>20</numero>
+				<nombre>Kevin</nombre>
+				<apellido>Magnussen</apellido>
+				<fechanacimiento>1992-10-05</fechanacimiento>
+				<pais>Dinamarca</pais>
+			</piloto>
+			<constructor constructorId="mclaren" url="http://es.wikipedia.org/wiki/McLaren">
+				<nombre>McLaren</nombre>
+				<pais>Gran Bretaña</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="10" puntos="20" victorias="0">
+			<piloto pilotoId="perez" id="PER" url="http://es.wikipedia.org/wiki/Sergio_P%C3%A9rez">
+				<numero>11</numero>
+				<nombre>Sergio</nombre>
+				<apellido>Pérez</apellido>
+				<fechanacimiento>1990-01-26</fechanacimiento>
+				<pais>Méjico</pais>
+			</piloto>
+			<constructor constructorId="force_India" url="http://es.wikipedia.org/wiki/Force_India">
+				<nombre>Force India</nombre>
+				<pais>India</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="11" puntos="18" victorias="0">
+			<piloto pilotoId="massa" id="MAS" url="http://es.wikipedia.org/wiki/Felipe_Massa">
+				<numero>19</numero>
+				<nombre>Felipe</nombre>
+				<apellido>Massa</apellido>
+				<fechanacimiento>1981-04-25</fechanacimiento>
+				<pais>Brasil</pais>
+			</piloto>
+			<constructor constructorId="williams" url="http://es.wikipedia.org/wiki/Williams_F1">
+				<nombre>Williams</nombre>
+				<pais>Gran Bretaña</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="12" puntos="17" victorias="0">
+			<piloto pilotoId="raikkonen" id="RAI" url="http://es.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen">
+				<numero>7</numero>
+				<nombre>Kimi</nombre>
+				<apellido>Raikkonen</apellido>
+				<fechanacimiento>1979-10-17</fechanacimiento>
+				<pais>Finlandia</pais>
+			</piloto>
+			<constructor constructorId="ferrari" url="http://es.wikipedia.org/wiki/Scuderia_Ferrari">
+				<nombre>Ferrari</nombre>
+				<pais>Italia</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="13" puntos="8" victorias="0">
+			<piloto pilotoId="grosjean" id="GRO" url="http://es.wikipedia.org/wiki/Romain_Grosjean">
+				<numero>8</numero>
+				<nombre>Romain</nombre>
+				<apellido>Grosjean</apellido>
+				<fechanacimiento>1986-04-17</fechanacimiento>
+				<pais>Francia</pais>
+			</piloto>
+			<constructor constructorId="lotus_f1" url="http://es.wikipedia.org/wiki/Lotus_F1">
+				<nombre>Lotus F1</nombre>
+				<pais>Gran Bretaña</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="14" puntos="4" victorias="0">
+			<piloto pilotoId="vergne" id="VER" url="http://es.wikipedia.org/wiki/Jean-%C3%89ric_Vergne">
+				<numero>25</numero>
+				<nombre>Jean-Eric</nombre>
+				<apellido>Vergne</apellido>
+				<fechanacimiento>1990-04-25</fechanacimiento>
+				<pais>Francia</pais>
+			</piloto>
+			<constructor constructorId="toro_rosso" url="http://es.wikipedia.org/wiki/Scuderia_Toro_Rosso">
+				<nombre>Toro Rosso</nombre>
+				<pais>Italia</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="15" puntos="4" victorias="0">
+			<piloto pilotoId="kvyat" id="KVY" url="http://es.wikipedia.org/wiki/Daniil_Kvyat">
+				<numero>26</numero>
+				<nombre>Daniil</nombre>
+				<apellido>Kvyat</apellido>
+				<fechanacimiento>1994-04-26</fechanacimiento>
+				<pais>Rusia</pais>
+			</piloto>
+			<constructor constructorId="toro_rosso" url="http://es.wikipedia.org/wiki/Scuderia_Toro_Rosso">
+				<nombre>Toro Rosso</nombre>
+				<pais>Italia</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="16" puntos="2" victorias="0">
+			<piloto pilotoId="bianchi" id="BIA" url="http://es.wikipedia.org/wiki/Jules_Bianchi">
+				<numero>17</numero>
+				<nombre>Jules</nombre>
+				<apellido>Bianchi</apellido>
+				<fechanacimiento>1989-08-03</fechanacimiento>
+				<pais>Francia</pais>
+			</piloto>
+			<constructor constructorId="marussia" url="http://es.wikipedia.org/wiki/Marussia_F1">
+				<nombre>Marussia</nombre>
+				<pais>Rusia</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="17" puntos="0" victorias="0">
+			<piloto pilotoId="ericsson" id="ERI" url="http://es.wikipedia.org/wiki/Marcus_Ericsson">
+				<numero>9</numero>
+				<nombre>Marcus</nombre>
+				<apellido>Ericsson</apellido>
+				<fechanacimiento>1990-09-02</fechanacimiento>
+				<pais>Suecia</pais>
+			</piloto>
+			<constructor constructorId="caterham" url="http://es.wikipedia.org/wiki/Caterham_F1">
+				<nombre>Caterham</nombre>
+				<pais>Malasia</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="18" puntos="0" victorias="0">
+			<piloto pilotoId="sutil" id="SUT" url="http://es.wikipedia.org/wiki/Adrian_Sutil">
+				<numero>99</numero>
+				<nombre>Adrian</nombre>
+				<apellido>Sutil</apellido>
+				<fechanacimiento>1983-01-11</fechanacimiento>
+				<pais>Alemania</pais>
+			</piloto>
+			<constructor constructorId="sauber" url="http://es.wikipedia.org/wiki/Sauber">
+				<nombre>Sauber</nombre>
+				<pais>Suiza</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="19" puntos="0" victorias="0">
+			<piloto pilotoId="gutierrez" id="GUT" url="http://es.wikipedia.org/wiki/Esteban_Guti%C3%A9rrez">
+				<numero>21</numero>
+				<nombre>Esteban</nombre>
+				<apellido>Gutiérrez</apellido>
+				<fechanacimiento>1991-08-05</fechanacimiento>
+				<pais>Méjico</pais>
+			</piloto>
+			<constructor constructorId="sauber" url="http://es.wikipedia.org/wiki/Sauber">
+				<nombre>Sauber</nombre>
+				<pais>Suiza</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="20" puntos="0" victorias="0">
+			<piloto pilotoId="chilton" id="CHI" url="http://es.wikipedia.org/wiki/Max_Chilton">
+				<numero>4</numero>
+				<nombre>Max</nombre>
+				<apellido>Chilton</apellido>
+				<fechanacimiento>1991-04-21</fechanacimiento>
+				<pais>Gran Bretaña</pais>
+			</piloto>
+			<constructor constructorId="marussia" url="http://es.wikipedia.org/wiki/Marussia_F1">
+				<nombre>Marussia</nombre>
+				<pais>Rusia</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="21" puntos="0" victorias="0">
+			<piloto pilotoId="kobayashi" id="KOB" url="http://es.wikipedia.org/wiki/Kamui_Kobayashi">
+				<numero>10</numero>
+				<nombre>Kamui</nombre>
+				<apellido>Kobayashi</apellido>
+				<fechanacimiento>1986-09-13</fechanacimiento>
+				<pais>Japón</pais>
+			</piloto>
+			<constructor constructorId="caterham" url="http://es.wikipedia.org/wiki/Caterham_F1">
+				<nombre>Caterham</nombre>
+				<pais>Malasia</pais>
+			</constructor>
+		</clasificacionpilotos>
+		<clasificacionpilotos posicion="22" puntos="0" victorias="0">
+			<piloto pilotoId="maldonado" id="MAL" url="http://es.wikipedia.org/wiki/Pastor_Maldonado">
+				<numero>13</numero>
+				<nombre>Pastor</nombre>
+				<apellido>Maldonado</apellido>
+				<fechanacimiento>1985-03-09</fechanacimiento>
+				<pais>Venezuela</pais>
+			</piloto>
+			<constructor constructorId="lotus_f1" url="http://es.wikipedia.org/wiki/Lotus_F1">
+				<nombre>Lotus F1</nombre>
+				<pais>Gran Bretaña</pais>
+			</constructor>
+		</clasificacionpilotos>
+	</clasificacion>
+</formula1>
+

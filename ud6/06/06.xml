@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<consolas>
+    <consola>
+        <nombre>Xbox Series</nombre>
+        <fabricante>Microsoft</fabricante>
+        <anyo>2020</anyo>
+    </consola>
+    <consola>
+        <nombre>Play Station 5</nombre>
+        <fabricante>Sony</fabricante>
+        <anyo>2020</anyo>
+    </consola>
+</consolas>

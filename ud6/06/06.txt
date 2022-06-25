@@ -1,0 +1,19 @@
+
+{
+   "consolas":[
+           
+      {
+          
+        "nombre":"Xbox Series",
+        "fabricante":"Microsoft",
+        "anyo":"2020"
+      },
+      {
+          
+        "nombre":"Play Station 5",
+        "fabricante":"Sony",
+        "anyo":"2020"
+      }
+   ]
+}
+    

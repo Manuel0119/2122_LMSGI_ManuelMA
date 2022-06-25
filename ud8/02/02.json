@@ -1,0 +1,28 @@
+{
+    "Nombre_del_equipo": "Real Madrid",
+    "Color":"Blanco",
+    "Nombre_del_estadio":"WiZink Center",
+    "Nombre_del_entrenador":"Pablo Laso",
+    "Plantilla_histórica":true,
+    "Referencia_Web":"https://www.realmadrid.com/baloncesto",
+    "Jugadores":{
+        "Base":[
+                {"Nombre":"William-Goss","Dorsal":0},
+                {"Nombre":"Núñez","Dorsal":2},
+                {"Nombre":"Heurtel","Dorsal":4},
+                {"Nombre":"Alocén","Dorsal":12}
+        ],
+        "Alero":[
+                {"Nombre":"Causeur","Dorsal":1},
+                {"Nombre":"Rudy","Dorsal":5},
+                {"Nombre":"Abalde","Dorsal":6},
+                {"Nombre":"Hanga","Dorsal":8}
+        ],
+        "Pivot":[
+                {"Nombre":"Poidier","Dorsal":17},
+                {"Nombre":"Tavares","Dorsal":22}
+        ]
+    }
+}
+
+

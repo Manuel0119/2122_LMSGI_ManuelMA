@@ -1,0 +1,35 @@
+body{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+caption,th{
+    background-color:  #6A6871;
+    color: #FFF;
+}
+
+table{
+    border: #6A6871 5px solid;
+    width: 100%;
+}
+
+td{
+    border-bottom: #6A6871 3px solid;
+    text-align: center;
+    padding: 10px;
+}
+
+caption{
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+

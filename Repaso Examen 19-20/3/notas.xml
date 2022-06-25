@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daw curso="1">
+    <alumnos>
+        <alumno>
+            <expediente>001</expediente>
+            <nombre>Pepe</nombre>
+            <apellido1>Sanchez</apellido1>
+            <apellido2>Casado</apellido2>
+        </alumno>
+        <alumno>
+            <expediente>002</expediente>
+            <nombre>Pepa</nombre>
+            <apellido1>Calvo</apellido1>
+            <apellido2>Garcia</apellido2>
+        </alumno>
+        <alumno>
+            <expediente>003</expediente>
+            <nombre>Pepita</nombre>
+            <apellido1>Rodríguez</apellido1>
+            <apellido2>Sanchez</apellido2>
+        </alumno>
+    </alumnos>
+
+    <boletin>
+        <calificacion expediente="001"  sigla="EDD">
+            <nota evaluacion="1">3</nota>
+            <nota evaluacion="2">5</nota>
+            <nota evaluacion="3">6</nota>
+        </calificacion>
+        <calificacion expediente="001"  sigla="LMSGI">
+            <nota evaluacion="1">5</nota>
+            <nota evaluacion="2">4</nota>
+            <nota evaluacion="3">7</nota>
+        </calificacion>
+        <calificacion expediente="001"  sigla="PROG">
+            <nota evaluacion="1">5</nota>
+            <nota evaluacion="2">4</nota>
+            <nota evaluacion="3">2</nota>
+        </calificacion>
+        <calificacion expediente="001"  sigla="BBDD">
+            <nota evaluacion="1">6</nota>
+            <nota evaluacion="2">6</nota>
+            <nota evaluacion="3">6</nota>
+        </calificacion>
+        <calificacion expediente="001"  sigla="FOL">
+            <nota evaluacion="1">8</nota>
+            <nota evaluacion="2">9</nota>
+            <nota evaluacion="3">7</nota>
+        </calificacion>
+				
+        <calificacion expediente="001"  sigla="SINF">
+            <nota evaluacion="1">7</nota>
+            <nota evaluacion="2">8</nota>
+            <nota evaluacion="3">7</nota>
+        </calificacion>
+        <calificacion expediente="002"  sigla="EDD">
+            <nota evaluacion="1">3</nota>
+            <nota evaluacion="2">5</nota>
+            <nota evaluacion="3">6</nota>
+        </calificacion>
+        <calificacion expediente="002"  sigla="LMSGI">
+            <nota evaluacion="1">5</nota>
+            <nota evaluacion="2">4</nota>
+            <nota evaluacion="3">7</nota>
+        </calificacion>
+        <calificacion expediente="002"  sigla="PROG">
+            <nota evaluacion="1">5</nota>
+            <nota evaluacion="2">4</nota>
+            <nota evaluacion="3">2</nota>
+        </calificacion>
+        <calificacion expediente="002"  sigla="BBDD">
+            <nota evaluacion="1">6</nota>
+            <nota evaluacion="2">6</nota>
+            <nota evaluacion="3">6</nota>
+        </calificacion>
+        <calificacion expediente="002"  sigla="FOL">
+            <nota evaluacion="1">8</nota>
+            <nota evaluacion="2">9</nota>
+            <nota evaluacion="3">7</nota>
+        </calificacion>
+				
+        <calificacion expediente="002"  sigla="SINF">
+            <nota evaluacion="1">7</nota>
+            <nota evaluacion="2">8</nota>
+            <nota evaluacion="3">7</nota>
+        </calificacion>
+        <calificacion expediente="003"  sigla="EDD">
+            <nota evaluacion="1">3</nota>
+            <nota evaluacion="2">NP</nota>
+            <nota evaluacion="3">6</nota>
+        </calificacion>
+        <calificacion expediente="003"  sigla="LMSGI">
+            <nota evaluacion="1">5</nota>
+            <nota evaluacion="2">4</nota>
+            <nota evaluacion="3">7</nota>
+        </calificacion>
+        <calificacion expediente="003"  sigla="PROG">
+            <nota evaluacion="1">5</nota>
+            <nota evaluacion="2">4</nota>
+            <nota evaluacion="3">2</nota>
+        </calificacion>
+        <calificacion expediente="003"  sigla="BBDD">
+            <nota evaluacion="1">6</nota>
+            <nota evaluacion="2">NP</nota>
+            <nota evaluacion="3">6</nota>
+        </calificacion>
+        <calificacion expediente="003"  sigla="FOL">
+            <nota evaluacion="1">8</nota>
+            <nota evaluacion="2">9</nota>
+            <nota evaluacion="3">7</nota>
+        </calificacion>
+				
+        <calificacion expediente="003"  sigla="SINF">
+            <nota evaluacion="1">7</nota>
+            <nota evaluacion="2">NP</nota>
+            <nota evaluacion="3">7</nota>
+        </calificacion>
+    </boletin>
+
+</daw>
